@@ -1,0 +1,18 @@
+<div class="title">Star Wars API Project</div>
+
+<div class="Menu"><form (ngSubmit)="onSubmit()" [formGroup]="displayResults">
+    Parameter<select formControlName="selection">
+        <option value="people" >People</option>
+        <option value="starships" >Starships</option>
+        <option value="films" >Films</option>
+    </select>
+    <br>
+    Find<input formControlName="find" type="text" name="find">
+    <br>
+    <button type="submit" class="findbutton" value="Submit"> Submit </button>
+</form>
+</div>
+
+<div *ngIf="results">
+    <p class='p-results'>{{results.results | json }}</p>
+</div> 

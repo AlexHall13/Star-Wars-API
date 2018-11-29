@@ -1,0 +1,35 @@
+.Menu {
+    margin-left: 25em;
+    margin-top: 15em;
+    color: yellow;
+    font-family: 'Star';
+}
+
+
+.title {
+    margin-left: 7em;
+    font-size: 250%;
+    font-family: 'Star';
+    color: yellow;
+    margin-top: 2em;
+}
+
+.p-results {
+    font-family: 'Star';
+    color: yellow;
+    font-size: 150%;
+}
+
+
+.findbutton {
+    margin-left: 16em;
+    background-color: yellow;
+    border: none;
+    color: black;
+    font-family: 'Star';
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
